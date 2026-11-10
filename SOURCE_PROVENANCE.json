@@ -1,0 +1,254 @@
+{
+  "schema": "solovey.component.source-provenance/v1",
+  "component": "observability-extra",
+  "originalRepository": "https://github.com/MalenkiySolovey/solovey-ui",
+  "originalCommit": "0bbdde2d4381453a966dd2f015ef0ac1c4773ccf",
+  "filteredHistoryCommit": "2585c173401fe0fafa5ed4cecdedbf010c72f37c",
+  "historyPolicy": "The complete filtered component ancestry is retained. History policy outside the component directory is attributed through original per-file blobs and commit history. Product history is unchanged.",
+  "originalLicense": "GPL-3.0-only",
+  "licenseSHA256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+  "files": [
+    {
+      "source": "components/observability-extra/component.json",
+      "destination": "component.json",
+      "originalBlob": "27c5a417b84cdc9c1b2aab8be4c6e3ea1ef0e1f9",
+      "originalSHA256": "2078a51d7dd0b5f1737ad4d710f42c0f596aa40a340fcfd19e2f2ecdc23a2591",
+      "destinationSHA256": "2078a51d7dd0b5f1737ad4d710f42c0f596aa40a340fcfd19e2f2ecdc23a2591",
+      "adaptation": "Unchanged canonical descriptor",
+      "history": [
+        "fdae746bcdaaab8515d87116c6fd33510026efd8 2026-10-21T06:39:11+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor(observability): consume declared ComponentHost owner ports",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/component.go",
+      "destination": "component.go",
+      "originalBlob": "1fb0f259dd3d405ac0fe8791d0d96d990aa0828f",
+      "originalSHA256": "30c19bc1ab2261b4d9de73eed669f281ae54eab1611836f58998a503de20a7f5",
+      "destinationSHA256": "18b9fb4e9ffca2fd926d70478d8761dadf42bd0da675e4ea14199e0d8c37361d",
+      "adaptation": "Existing synchronized lifecycle; Panel registration and HTTP adapter remain at composition owner",
+      "history": [
+        "212a69dfdaf60faa3f8626eac878638daf40bb6a 2026-11-09T18:25:28+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Adopt shared component contracts and preserve Panel owner adapters",
+        "fdae746bcdaaab8515d87116c6fd33510026efd8 2026-10-21T06:39:11+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor(observability): consume declared ComponentHost owner ports",
+        "6a99d0e4fe4c7047f0eca3ff96159ce4bdc93f13 2026-08-15T02:57:14+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor: finalize architecture and release hardening",
+        "cb44ec3833acbc2d01ef4b6fba232aa97878fbf0 2026-08-12T00:37:51+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> feat: ship Solovey UI 2026.3.0",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "service/observability/types.go",
+      "destination": "history/types.go",
+      "originalBlob": "67d186420c167fc75ac00f7411c4a9b6021cdc12",
+      "originalSHA256": "0f0846f65454cb5ffd57a6001fee1ce00fdb4fba089bd7f11796e6d47d1ace76",
+      "destinationSHA256": "cd38007354d36cc8ed414fe73eb17da0690a6a5b145f0db8aaccbfc9e1e62da7",
+      "adaptation": "Canonical Host values and unchanged history/rollup policy; standard errors preserve messages",
+      "history": [
+        "212a69dfdaf60faa3f8626eac878638daf40bb6a 2026-11-09T18:25:28+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Adopt shared component contracts and preserve Panel owner adapters",
+        "6a99d0e4fe4c7047f0eca3ff96159ce4bdc93f13 2026-08-15T02:57:14+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor: finalize architecture and release hardening",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release",
+        "328992697756e0520fa4a048a660e69df4374a89 2026-06-26T03:17:29+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Release Solovey UI 2026.1.0"
+      ]
+    },
+    {
+      "source": "service/observability/ports.go",
+      "destination": "history/ports.go",
+      "originalBlob": "fc2c65883d4853c0ded10a0d76b63bb533a3bee6",
+      "originalSHA256": "cd03bb9fd6e02650fffed78878801de5a102d75b14dfdfaaa6a728c3472607f3",
+      "destinationSHA256": "cd03bb9fd6e02650fffed78878801de5a102d75b14dfdfaaa6a728c3472607f3",
+      "adaptation": "Canonical Host values and unchanged history/rollup policy; standard errors preserve messages",
+      "history": [
+        "212a69dfdaf60faa3f8626eac878638daf40bb6a 2026-11-09T18:25:28+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Adopt shared component contracts and preserve Panel owner adapters",
+        "fdae746bcdaaab8515d87116c6fd33510026efd8 2026-10-21T06:39:11+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor(observability): consume declared ComponentHost owner ports"
+      ]
+    },
+    {
+      "source": "service/observability/aggregate.go",
+      "destination": "history/aggregate.go",
+      "originalBlob": "eac05b782ef57b8e825cda35ff531d2ad1a9d918",
+      "originalSHA256": "3cb76adbd253d435bf92135d6c48ddcb91bae3b58186a682c8c602279bfdc644",
+      "destinationSHA256": "3cb76adbd253d435bf92135d6c48ddcb91bae3b58186a682c8c602279bfdc644",
+      "adaptation": "Canonical Host values and unchanged history/rollup policy; standard errors preserve messages",
+      "history": [
+        "212a69dfdaf60faa3f8626eac878638daf40bb6a 2026-11-09T18:25:28+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Adopt shared component contracts and preserve Panel owner adapters",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release",
+        "328992697756e0520fa4a048a660e69df4374a89 2026-06-26T03:17:29+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Release Solovey UI 2026.1.0"
+      ]
+    },
+    {
+      "source": "service/observability/service.go",
+      "destination": "history/service.go",
+      "originalBlob": "90477d0a91e48cec832c7a7cae48b5b62af80a48",
+      "originalSHA256": "8f999252837dafbecd1f58f898fa3e364299e6cbf2d857491f08c0295cad3514",
+      "destinationSHA256": "8779ee89e28094ff05c95be89ebfb92fa61cd25f7808aef51c1bc76b890b4384",
+      "adaptation": "Optional store becomes instance-owned; snapshot acquisition, logging and DB hook remain injected host responsibilities",
+      "history": [
+        "212a69dfdaf60faa3f8626eac878638daf40bb6a 2026-11-09T18:25:28+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Adopt shared component contracts and preserve Panel owner adapters",
+        "6a99d0e4fe4c7047f0eca3ff96159ce4bdc93f13 2026-08-15T02:57:14+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor: finalize architecture and release hardening",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release",
+        "328992697756e0520fa4a048a660e69df4374a89 2026-06-26T03:17:29+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Release Solovey UI 2026.1.0"
+      ]
+    },
+    {
+      "source": "service/observability/service_test.go",
+      "destination": "history/service_test.go",
+      "originalBlob": "e65c697fc1b10d3420f276e1534442008995850c",
+      "originalSHA256": "ebe212c1540ec425d8e56e15a80da92ea7cad4b27f24b28724de62e866edea6a",
+      "destinationSHA256": "642d5d8e4197df58cd8286325e2afad7b206dd997e29fda082abfbc8a170b8db",
+      "adaptation": "Original behavior, memory/cache/reset and measured resources, isolated per-host stores",
+      "history": [
+        "6a99d0e4fe4c7047f0eca3ff96159ce4bdc93f13 2026-08-15T02:57:14+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor: finalize architecture and release hardening",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release",
+        "328992697756e0520fa4a048a660e69df4374a89 2026-06-26T03:17:29+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Release Solovey UI 2026.1.0"
+      ]
+    },
+    {
+      "source": "components/observability-extra/jobs/sampling.go",
+      "destination": "jobs/sampling.go",
+      "originalBlob": "be59b44f5f48629f6b5ffe8299779c7b10e658d2",
+      "originalSHA256": "129d931db9aa830c7696bac90df7876948b56c06fdf2775db85c751f2953867f",
+      "destinationSHA256": "47db63b31e367e9a06acc98c4f707a096baeae94ca43978b16e24663681994ec",
+      "adaptation": "Unchanged tick/rollup/cancellation policy on existing Host sampler; host-owned logging callback",
+      "history": [
+        "fdae746bcdaaab8515d87116c6fd33510026efd8 2026-10-21T06:39:11+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor(observability): consume declared ComponentHost owner ports",
+        "6a99d0e4fe4c7047f0eca3ff96159ce4bdc93f13 2026-08-15T02:57:14+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor: finalize architecture and release hardening",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/jobs/sampling_test.go",
+      "destination": "jobs/sampling_test.go",
+      "originalBlob": "986ae8eed9f5af7d688969dc4544e1f506805e81",
+      "originalSHA256": "f16103830e3b8cf045729a3bee767926262dfb0a7165dc7ec8024db1081014bd",
+      "destinationSHA256": "99a9b9604e7f631c62de6a903f371a33386f0f6bec36686d23bd5c05aa777ac2",
+      "adaptation": "Original rollup assertions on fake snapshots and independent memory-only store",
+      "history": [
+        "6a99d0e4fe4c7047f0eca3ff96159ce4bdc93f13 2026-08-15T02:57:14+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor: finalize architecture and release hardening",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/composables/useDiagnosticsPage.ts",
+      "destination": "frontend/composables/useDiagnosticsPage.ts",
+      "originalBlob": "cfd60723e4172734e748fd22769058800a334d8c",
+      "originalSHA256": "a049af35903d9cd5c28b28050d821ebf78f788148a4c4246ee2b7de81ca43a44",
+      "destinationSHA256": "8d9076d5d269b5aea457a777437b88c03480515685bef4f5470075b7afa65b51",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/index.ts",
+      "destination": "frontend/index.ts",
+      "originalBlob": "d7fede992c33db44f7ac6e0b1f7bb7ffef0a5876",
+      "originalSHA256": "0de5f51e1bdd421e2e9635cb9b18ea5b8a4ccb16c89e7ddc72e7e8d19a64c8d6",
+      "destinationSHA256": "ba1c0990bea62524bcc3fd5267dd273e7838484f6abf017322b051328f853577",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "e64b61138a05344c460f5cddebeb96543d219cb7 2026-10-21T17:16:21+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> feat(components): admit typed UI contributions through the existing registry",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/locales/en.ts",
+      "destination": "frontend/locales/en.ts",
+      "originalBlob": "1045803235d2afb3684608412afa6d0f7096bd75",
+      "originalSHA256": "c4a7cf2bc36e84e6e5ea0422ac8923957f1918fb39d7466ddc6aa03dc884ac8b",
+      "destinationSHA256": "c4a7cf2bc36e84e6e5ea0422ac8923957f1918fb39d7466ddc6aa03dc884ac8b",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/locales/fa.ts",
+      "destination": "frontend/locales/fa.ts",
+      "originalBlob": "0d8ac4183206101d26292ace0caa69f387d28c7b",
+      "originalSHA256": "d56ddc2f31bc890885a01eb6a22c464ef5a93dbd820cd155ff804c40ca75ee72",
+      "destinationSHA256": "d56ddc2f31bc890885a01eb6a22c464ef5a93dbd820cd155ff804c40ca75ee72",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/locales/ru.ts",
+      "destination": "frontend/locales/ru.ts",
+      "originalBlob": "f0abb17a0ba76b23a2750bbe86f7a05587de0f41",
+      "originalSHA256": "812da1c4ad2f03c5ebf8ff20ce32771316c141ed324deac0f7c02aa79c858895",
+      "destinationSHA256": "812da1c4ad2f03c5ebf8ff20ce32771316c141ed324deac0f7c02aa79c858895",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/locales/vi.ts",
+      "destination": "frontend/locales/vi.ts",
+      "originalBlob": "ef78b5661714b1f8ada3033b6d8fe907b5b0a4a3",
+      "originalSHA256": "406b259432dde21c0b456d6c1d6e3054a20cf7bf7b7197a4a5c0550f8d7980fc",
+      "destinationSHA256": "406b259432dde21c0b456d6c1d6e3054a20cf7bf7b7197a4a5c0550f8d7980fc",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/locales/zhcn.ts",
+      "destination": "frontend/locales/zhcn.ts",
+      "originalBlob": "fc70f4f40200ddbb6db4e2e3c17f6a260f983289",
+      "originalSHA256": "06f611fd6d5faebda8fd7f2e607ad6412a6c5d470ac0187ee5aae9f2c2f657ef",
+      "destinationSHA256": "06f611fd6d5faebda8fd7f2e607ad6412a6c5d470ac0187ee5aae9f2c2f657ef",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/locales/zhtw.ts",
+      "destination": "frontend/locales/zhtw.ts",
+      "originalBlob": "e6f70280d3461df2adad885bfd9829049b1775de",
+      "originalSHA256": "d672f11454e39557a022998e388e8582ada3f95e229a3e7e2ec91fae021a2ad1",
+      "destinationSHA256": "d672f11454e39557a022998e388e8582ada3f95e229a3e7e2ec91fae021a2ad1",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/views/Audit.vue",
+      "destination": "frontend/views/Audit.vue",
+      "originalBlob": "3caac757f45b0820c3f0614afb0841e723d5e9b9",
+      "originalSHA256": "6959f25b87a0ad02782b9ffe9501d787db5f3bc53b92430235d687287d51bcf8",
+      "destinationSHA256": "6e85343f35ffa9d9e87efc382f5acd10bf668c0f1f557cae32167b43b53c8f58",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "c099b01ae5283f2ee5271117e042e51bc166c9ac 2026-09-14T02:18:00+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> platform: qualify OpenWrt 25.12.5 support",
+        "6a99d0e4fe4c7047f0eca3ff96159ce4bdc93f13 2026-08-15T02:57:14+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> refactor: finalize architecture and release hardening",
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/views/Diagnostics.scss",
+      "destination": "frontend/views/Diagnostics.scss",
+      "originalBlob": "2769122037d0e1d17488f1b6ef6a030b665e0f39",
+      "originalSHA256": "b40787c8cf8126750cd4904e49c1347551659d4fac9e87474f74949e561dbdf5",
+      "destinationSHA256": "b40787c8cf8126750cd4904e49c1347551659d4fac9e87474f74949e561dbdf5",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    },
+    {
+      "source": "components/observability-extra/frontend/views/Diagnostics.vue",
+      "destination": "frontend/views/Diagnostics.vue",
+      "originalBlob": "c2e470ef6720ba0ab64232a807a83e7b3554e4d6",
+      "originalSHA256": "e07516bf02fe00a184182c01a0c0adf695c8b12b9c45db0c426878fad5e5143a",
+      "destinationSHA256": "5a23c655728bfa4aef4198d04c5331cd88d5118fe3af58efbd2a872cf294cdd2",
+      "adaptation": "UI behavior and all locales retained; only imports use public frontend exports",
+      "history": [
+        "27f6b0b78b4c38b06bdf8a4a5140051256b14863 2026-07-02T16:59:26+03:00 MalenkiySolovey <147066644+MalenkiySolovey@users.noreply.github.com> Prepare Solovey UI 2026.2.0 release"
+      ]
+    }
+  ]
+}
