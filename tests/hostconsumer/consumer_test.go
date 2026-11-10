@@ -82,6 +82,11 @@ func TestIndependentHostUsesTheSameLifecycleAndHistory(t *testing.T) {
 	if len(rolled) != 4 || rolled[3].CPU != 545.5 {
 		t.Fatalf("5m rollup changed: %#v", rolled)
 	}
+	for i, expected := range []float64{95.5, 245.5, 395.5, 545.5} {
+		if rolled[i].CPU != expected {
+			t.Fatalf("rollup %d: %v, want %v", i, rolled[i].CPU, expected)
+		}
+	}
 	if len(core) != 4 || core[3].Core["source"] != "node-local" {
 		t.Fatal(core)
 	}
