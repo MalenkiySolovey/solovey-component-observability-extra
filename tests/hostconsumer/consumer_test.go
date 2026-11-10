@@ -76,6 +76,12 @@ func TestIndependentHostUsesTheSameLifecycleAndHistory(t *testing.T) {
 		t.Fatalf("memory bound %d %v", len(h), err)
 	}
 	core, _ := owner.CoreHistoryForBucket(history.ObservabilityBucket5m)
+	rolled, _ := owner.HistoryForBucket(history.ObservabilityBucket5m)
+	// At the existing one-MB policy the 2s ring retains 110 samples. Rollup
+	// averages the available tail, preserving its behavior under memory pressure.
+	if len(rolled) != 4 || rolled[3].CPU != 545.5 {
+		t.Fatalf("5m rollup changed: %#v", rolled)
+	}
 	if len(core) != 4 || core[3].Core["source"] != "node-local" {
 		t.Fatal(core)
 	}
