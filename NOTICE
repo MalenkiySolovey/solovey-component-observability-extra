@@ -1,0 +1,8 @@
+Solovey Observability Extra
+
+Derived from MalenkiySolovey/solovey-ui at 0bbdde2d4381453a966dd2f015ef0ac1c4773ccf.
+Original authors and the component's filtered Git ancestry are preserved, with
+per-file history and blob identities in SOURCE_PROVENANCE.json.
+Optional history policy also derives from service/observability at that revision.
+This project retains the original GPL-3.0 license without relicensing upstream work.
+Shared Host contracts remain independently sourced from solovey-host.
